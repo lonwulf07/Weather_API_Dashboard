@@ -1,25 +1,56 @@
-# Weather API Dashboard 🚀
+# 🌦 Weather Analytics & ML Forecast Dashboard
 
-A full-stack Python project using:
+A full-stack data application that collects real-time weather data,
+stores historical records, visualizes trends, and predicts future
+temperature using Machine Learning.
 
-- FastAPI (Backend API)
-- Streamlit (Frontend Dashboard)
-- OpenWeather API
+Built with modern Python technologies following real-world API and
+analytics system design.
 
-## Features
-- Fetch real-time weather
-- Interactive dashboard
-- Deployable API
+------------------------------------------------------------------------
 
-## Tech Stack
-Python, FastAPI, Streamlit, REST API
+## 🚀 Features
 
-## How to Run
+✅ REST API for real-time weather data (FastAPI)\
+✅ Persistent database storage (SQLite + SQLAlchemy)\
+✅ Interactive analytics dashboard (Streamlit)\
+✅ Historical weather trend visualization\
+✅ Machine Learning temperature forecasting\
+✅ Model accuracy evaluation (MAE)\
+✅ Clean, modern UI layout
 
-### Backend
-cd backend  
-uvicorn main:app --reload  
+------------------------------------------------------------------------
 
-### Frontend
-cd frontend  
-streamlit run dashboard.py
+## 🧠 Tech Stack
+
+Backend: FastAPI, Python, SQLAlchemy\
+Frontend: Streamlit, Pandas, Matplotlib\
+Database: SQLite\
+ML: Scikit-learn
+
+------------------------------------------------------------------------
+
+## 📂 Project Structure
+
+api_dashboard_project/ backend/ frontend/ README.md
+
+------------------------------------------------------------------------
+
+## ⚙️ Setup Instructions
+
+1.  Create virtual environment\
+2.  Install dependencies\
+3.  Add API key in .env\
+4.  Run backend\
+5.  Run frontend
+
+------------------------------------------------------------------------
+
+## 🔌 API Endpoints
+
+GET /\
+GET /weather/{city}\
+GET /history\
+GET /forecast/{city}
+
+------------------------------------------------------------------------
