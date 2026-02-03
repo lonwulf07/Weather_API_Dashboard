@@ -10,7 +10,7 @@ st.set_page_config(
 
 st.title("🌦 Weather Analytics & ML Forecast Platform")
 
-API_BASE = "https://weather-api-backend.onrender.com"
+API_BASE = "https://weather-api-dashboard-7sqm.onrender.com/"
 
 # ------------------ CURRENT WEATHER ------------------
 
