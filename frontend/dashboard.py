@@ -10,7 +10,7 @@ st.set_page_config(
 
 st.title("🌦 Weather Analytics & ML Forecast Platform")
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://weather-api-backend.onrender.com"
 
 # ------------------ CURRENT WEATHER ------------------
 
