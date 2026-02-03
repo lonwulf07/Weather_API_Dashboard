@@ -9,6 +9,18 @@ analytics system design.
 
 ------------------------------------------------------------------------
 
+## 🌍 Live Demo
+
+This project is fully deployed with cloud-hosted backend and frontend services.
+
+🚀 Dashboard: https://weatherapidashboard.streamlit.app/ 
+
+⚙️ Backend API: https://weather-api-dashboard-7sqm.onrender.com/ 
+
+📚 API Documentation: https://weather-api-dashboard-7sqm.onrender.com/docs 
+
+------------------------------------------------------------------------
+
 ## 🚀 Features
 
 ✅ REST API for real-time weather data (FastAPI)\
